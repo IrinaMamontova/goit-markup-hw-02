@@ -199,6 +199,21 @@ body {
   color: var(--text-cl);
 }
 
+
+.btn1{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background-color:var(--accent-color);
+}
+
+
 .btn {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -212,17 +227,20 @@ body {
   background-color: #f5f4fa;
 }
 
+
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+}
+
+
 p {
   font-family: Roboto, sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 1, 87%;
   color: var(--gray);
-}
-
-.btn:hover,
-.btn:focus {
-  background-color: var(--accent-color);
 }
 
 .menu-link {
