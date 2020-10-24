@@ -138,6 +138,17 @@
       format("svg"); /* Legacy iOS */
 }
 
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+
+
 :root {
   --text-cl: #212121;
   --accent-color: #2196f3;
@@ -179,6 +190,7 @@ body {
   text-transform: uppercase;
   color: var(--white);
   background-color: var(--dark-bg);
+  
 }
 
 .title {
@@ -225,6 +237,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--text-cl);
   background-color: #f5f4fa;
+  
 }
 
 
@@ -232,6 +245,7 @@ body {
 .btn:hover,
 .btn:focus {
   background-color: var(--accent-color);
+  color:var(--white)
 }
 
 
@@ -266,6 +280,7 @@ p {
   font-size: 26px;
   line-height: 1.42;
   color: var(--text-cl);
+  margin-left: -3px;
 }
 
 .logowhite {
@@ -274,6 +289,7 @@ p {
   font-size: 26px;
   line-height: 1.42;
   color: var(--white);
+  margin-left: -3px;
 }
 .team {
   background-color: var(--light-bg);
